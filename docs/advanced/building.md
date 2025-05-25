@@ -89,12 +89,12 @@ git clone https://github.com/Drop-OSS/drop-app.git
 cd drop-app
 git checkout main
 yarn
-yarn tauri dev
+yarn tauri build
 ```
 
 If the command is successful, you can find the generated assets in: `src-tauri/target/release/bundle`. You can find the AppImage in the `appimage` folder.
 
-If the `yarn tauri dev` command fails, you can try adding `--verbose` to get the error details.
+If the `yarn tauri build` command fails, you can try adding `--verbose` to get the error details.
 
 If you get this type of error:
 
