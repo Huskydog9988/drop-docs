@@ -37,6 +37,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Authentication",
+      items: ["authentication/simple", "authentication/oidc"],
+    },
+    {
+      type: "category",
       label: "Advanced",
       items: ["advanced/building"],
     },

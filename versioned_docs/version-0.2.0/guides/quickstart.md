@@ -51,7 +51,7 @@ services:
 
 **In addition, configure your chosen metadata provider:**
 
-- [GiantBomb](/metadata/giantbomb.md) (only one supported as of v0.2.0-beta)
+- [GiantBomb](/docs/metadata/giantbomb.md) (only one supported as of v0.2.0-beta)
 
 :::tip
 If you want to, you can generate a more secure PostgreSQL username & password.
@@ -61,11 +61,11 @@ If you want to, you can generate a more secure PostgreSQL username & password.
 For security reasons, the Drop server and client's times need to be within 30 seconds of each other, otherwise authorization will fail.
 :::
 
-Once your instance is running, [create your admin account](/guides/create-admin-account.md).
+Once your instance is running, [create your admin account](/docs/guides/create-admin-account.md).
 
 ## Setting up a client
 
-To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](/guides/exposing.md) for information on how to do that.
+To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](/docs/guides/exposing.md) for information on how to do that.
 
 First, download the latest client for your platform from [the GitHub releases page](https://github.com/Drop-OSS/drop-app/releases). Then, install it for your platform. If we don't have a binary available for your platform, please create an issue on [the Drop app repository](https://github.com/Drop-OSS/drop-app) and we'll investigate it.
 
