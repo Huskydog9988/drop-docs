@@ -111,4 +111,3 @@ NO_STRIP=true yarn tauri build
 ```
 
 This is a known issue in [Tauri](https://github.com/tauri-apps/tauri/issues/5781#issuecomment-1758815710).
-\*\*

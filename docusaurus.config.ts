@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "/drop.svg",
 
   // Set the production url of your site here
-  url: "https://wiki.droposs.org",
+  url: "https://docs.droposs.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -67,12 +67,19 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "defaultSidebar",
-          position: "left",
-          label: "Documentation",
+          type: "doc",
+          docId: "guides/quickstart",
+          label: "Quickstart",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          type: "docsVersionDropdown",
+          position: "right",
+        },
+        {
+          href: "https://forum.droposs.org",
+          label: "Forum",
+          position: "right",
+        },
         {
           href: "https://github.com/Drop-OSS",
           label: "GitHub",
@@ -87,8 +94,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Quickstart",
+              to: "/docs/guides/quickstart",
+            },
+            {
+              label: "Client Getting Started",
+              to: "/docs/guides/client",
             },
           ],
         },
@@ -96,16 +107,12 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Forum",
+              href: "https://forum.droposs.org/",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              href: "https://discord.gg/NHx46XKJWA",
             },
           ],
         },
@@ -113,12 +120,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Drop-OSS/",
             },
           ],
         },
