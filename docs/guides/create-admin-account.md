@@ -6,4 +6,4 @@ To use the invitation, go to:
 {Drop instance URL}/register?id=admin
 ```
 
-Once used, the invitation will be deleted. If you are unsure how to access your Drop instance, read through [Exposing your instance](/guides/exposing)
+Once used, the invitation will be deleted. If you are unsure how to access your Drop instance, read through [Exposing your instance](/docs/guides/exposing)
