@@ -36,8 +36,6 @@ services:
       - ./data:/data
     environment:
       - DATABASE_URL=postgres://drop:drop@postgres:5432/drop
-      - DATA=/data
-      - LIBRARY=/library
 ```
 
 **The main things in this `compose.yaml` is the volumes attached to the `drop` service:**
