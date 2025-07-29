@@ -3,7 +3,7 @@ A freshly set up Drop instance will have an 'admin invitation' created. This all
 
 To use the invitation, go to:
 ```
-{Drop instance URL}/register?id=admin
+{Drop instance URL}/auth/register?id=admin
 ```
 
 Once used, the invitation will be deleted. If you are unsure how to access your Drop instance, read through [Exposing your instance](/docs/guides/exposing)
