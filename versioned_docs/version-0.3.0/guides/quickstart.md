@@ -40,14 +40,14 @@ services:
 
 **The main things in this `compose.yaml` is the volumes attached to the `drop` service:**
 
-1. `./library` is where you will put your games to be imported into Drop. See '[Structuring your library](/docs/library.md#structuring-your-library)' once you're set up.
+1. `./library` is where you will put your games to be imported into Drop. See '[Structuring your library](../library.md#structuring-your-library)' once you're set up.
 2. `./data` is where Drop will store anything that's using the default file-system backed storage system. Typically, these are objects.
 
 **In addition, configure your chosen metadata provider:**
 
-- [GiantBomb](/docs/metadata/giantbomb.md)
-- [IGDB](/docs/metadata/igdb.md)
-- [PCGamingWiki](/docs/metadata/pcgamingwiki.md)
+- [GiantBomb](../metadata/giantbomb.md)
+- [IGDB](../metadata/igdb.md)
+- [PCGamingWiki](../metadata/pcgamingwiki.md)
 
 :::tip
 If you want to, you can generate a more secure PostgreSQL username & password.

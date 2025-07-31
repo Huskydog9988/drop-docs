@@ -2,7 +2,7 @@
 Exposing your instance allows it to be accessible from other computers than the one you're hosting it on.
 
 ## LAN
-The `compose.yaml` provided in the [Quickstart guide](/docs/guides/quickstart.md) already exposes the Drop instance on port 3000. If you're on the same LAN as your Drop instance, you can find it's IP and then use:
+The `compose.yaml` provided in the [Quickstart guide](./quickstart.md) already exposes the Drop instance on port 3000. If you're on the same LAN as your Drop instance, you can find it's IP and then use:
 ```
 http://[instance IP]:3000
 ```

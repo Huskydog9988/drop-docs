@@ -16,7 +16,7 @@ We also recommend join our Discord: [Drop-OSS invite](https://discord.gg/NHx46XK
 ## Self hosted
 Self hosted means there **is no central server.** Unlike many of the services which dominate the Internet today, Drop isn't a website you go to, it's software you download and run yourself. That means every person that uses Drop **has their own, independent copy**, which has it's own **own, independent URL or way to access it.** 
 
-Or, if you're lucky, one of your friends or family has already set up an instance, and provided you with a URL, in which case you can just head over to [Getting started with Drop](/docs/guides/client).
+Or, if you're lucky, one of your friends or family has already set up an instance, and provided you with a URL, in which case you can just head over to [Getting started with Drop](./guides/client).
 
 ## Game distribution
 A game distribution service is one that... distributes games. Think of Steam, GOG or Epic Games. You can view, buy and download games from these sites. That's what Drop is.

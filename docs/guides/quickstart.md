@@ -40,14 +40,14 @@ services:
 
 **The main things in this `compose.yaml` is the volumes attached to the `drop` service:**
 
-1. `./library` is where you will put your games to be imported into Drop. See '[Structuring your library](/docs/library.md#structuring-your-library)' once you're set up.
+1. `./library` is where you will put your games to be imported into Drop. See '[Structuring your library](../library.md#structuring-your-library)' once you're set up.
 2. `./data` is where Drop will store anything that's using the default file-system backed storage system. Typically, these are objects.
 
 **In addition, configure your chosen metadata provider:**
 
-- [GiantBomb](/docs/metadata/giantbomb.md)
-- [IGDB](/docs/metadata/igdb.md)
-- [PCGamingWiki](/docs/metadata/pcgamingwiki.md)
+- [GiantBomb](../metadata/giantbomb.md)
+- [IGDB](../metadata/igdb.md)
+- [PCGamingWiki](../metadata/pcgamingwiki.md)
 
 :::tip
 If you want to, you can generate a more secure PostgreSQL username & password.
@@ -61,7 +61,7 @@ Once your instance is running, it will log a URL that takes you to the setup wiz
 
 ## Setting up a client
 
-To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](/docs/guides/exposing.md) for information on how to do that.
+To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](./exposing.md) for information on how to do that.
 
 First, download the latest client for your platform from [the GitHub releases page](https://github.com/Drop-OSS/drop-app/releases). Then, install it for your platform. If we don't have a binary available for your platform, please create an issue on [the Drop app repository](https://github.com/Drop-OSS/drop-app) and we'll investigate it.
 

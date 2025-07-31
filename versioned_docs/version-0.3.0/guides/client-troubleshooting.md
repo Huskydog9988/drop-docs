@@ -19,4 +19,4 @@ Settings and press "Reset Default Apps". This will, however, result in resetting
 ## I'm using the AppImage on GNOME/Wayland, but I can not interact with the window
 
 If your Drop window behaves strangely, i.e clicking in it makes the previously interacted window pop up on top of drop, then you might want to build the AppImage yourself.
-See the [Building Drop OSS](/docs/advanced/building.md#building-drop-app-desktop-companion-app) page.
+See the [Building Drop OSS](../advanced/building.md#building-drop-app-desktop-companion-app) page.
