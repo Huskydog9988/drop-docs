@@ -21,7 +21,6 @@ const sidebars: SidebarsConfig = {
       items: [
         "guides/quickstart",
         "guides/exposing",
-        "guides/create-admin-account",
         "guides/server-troubleshooting",
       ],
     },

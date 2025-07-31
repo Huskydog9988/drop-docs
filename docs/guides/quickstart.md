@@ -57,7 +57,7 @@ If you want to, you can generate a more secure PostgreSQL username & password.
 For security reasons, the Drop server and client's times need to be within 30 seconds of each other, otherwise authorization will fail.
 :::
 
-Once your instance is running, [create your admin account](/docs/guides/create-admin-account.md).
+Once your instance is running, it will log a URL that takes you to the setup wizard. You can use it to create an admin account, and create your first library source. 
 
 ## Setting up a client
 

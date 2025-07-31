@@ -1,4 +1,4 @@
-# Library
+# Library Sources
 
 Drop supports different library structures, but they all are underpinned by the same few concepts. You can add more than one library (called a 'library source') that each use different structures, to combine your multiple game libraries into one.
 
