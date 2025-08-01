@@ -16,9 +16,22 @@ The Drop style library format enables all the Drop features, but isn't compatibl
 
 Drop uses a very particular structure to organise your games library. Generally, to get started, you need to create two folders for a game:
 
-1. `{LIBRARY}/My Game Name` - The game folder. This contains **only** folders, as described as below.
-2. `{LIBRARY}/My Game Name/my-version-name` - The version folder or file. This folder contains all the files for the game. Currently Drop supports this being a folder, or an archive in the format:
-   - `.zip`
+```
+/
+   MyGame/ # The game folder. This contains **only** folders, as described as below. 
+      version-1/ # The version folder or file. This folder contains all the files for the game. Currently Drop supports this being a folder, or an archive
+         game.exe
+         ...
+      version-2/
+         ...
+
+   MyOtherGame/
+      version1.zip
+      version2/
+         ...
+
+   ..etc...
+```
 
 Once in the UI, you'll be prompted to "import" each folder separately:
 
