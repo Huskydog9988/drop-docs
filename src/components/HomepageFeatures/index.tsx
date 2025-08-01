@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     title: "Modern",
     description: (
       <>
-        We to build refreshing and attractive UIs, while never compromising on
+        We aim to build refreshing and attractive UIs, while never compromising on
         UX.
       </>
     ),
