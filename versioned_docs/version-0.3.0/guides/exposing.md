@@ -1,6 +1,12 @@
 # Exposing your instance
 Exposing your instance allows it to be accessible from other computers than the one you're hosting it on.
 
+## Setting `EXTERNAL_URL`
+Drop uses `EXTERNAL_URL` for creating invitation links, OIDC redirects, and everything else. It should be passed as an environment variable, and include the protocol, ip/domain, and port (if applicable). Examples include:
+- `http://192.168.0.100:3000`
+- `https://drop.my.domain/`
+- `http://drop.home.arpa:3000`
+
 ## LAN
 The `compose.yaml` provided in the [Quickstart guide](./quickstart.md) already exposes the Drop instance on port 3000. If you're on the same LAN as your Drop instance, you can find it's IP and then use:
 ```
