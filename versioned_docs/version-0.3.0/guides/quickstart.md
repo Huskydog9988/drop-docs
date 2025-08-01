@@ -36,6 +36,7 @@ services:
       - ./data:/data
     environment:
       - DATABASE_URL=postgres://drop:drop@postgres:5432/drop
+      - EXTERNAL_URL=http://localhost:3000 # default, customise if accessing from another computer or behind a reverse proxy
 ```
 
 **The main things in this `compose.yaml` is the volumes attached to the `drop` service:**
