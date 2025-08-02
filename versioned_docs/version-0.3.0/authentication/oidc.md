@@ -27,3 +27,7 @@ And then, you must configure **either**:
 | `OIDC_TOKEN`         | Token endpoint. Usually ends with `token`.                                |
 | `OIDC_USERINFO`      | Userinfo endpoint. Usually ends with `userinfo`.                          |
 | `OIDC_SCOPES`        | Comma separated list of scopes. Requires, at least, `openid` and `email`. |
+
+
+## Redirect URL
+Drop uses the `EXTERNAL_URL` environment variable to create the callback URL: `$EXTERNAL_URL/auth/callback/oidc`. 
