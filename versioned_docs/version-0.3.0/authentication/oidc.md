@@ -6,12 +6,13 @@ OpenID Connect is a OAuth2 extension support by most identity providers.
 
 To configure OIDC, you must set the following environment variables:
 
-| Variable                         | Usage                                                                                             |
-| -------------------------------- | ------------------------------------------------------------------------------------------------- |
-| `OIDC_CLIENT_ID`                 | Client ID from your identity provider.                                                            |
-| `OIDC_CLIENT_SECRET`             | Client secret from your identity provider.                                                        |
-| `OIDC_ADMIN_GROUP`               | Grant admin to users with this group configured in your identity provider. Tested with Authentik. |
-| `DISABLE_SIMPLE_AUTH` (optional) | Disable simple auth                                                                               |
+| Variable                         | Usage                                                                                               |
+| -------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `OIDC_CLIENT_ID`                 | Client ID from your identity provider.                                                              |
+| `OIDC_CLIENT_SECRET`             | Client secret from your identity provider.                                                          |
+| `OIDC_ADMIN_GROUP`               | Grant admin to users with this group configured in your identity provider. Tested with Authentik.   |
+| `DISABLE_SIMPLE_AUTH` (optional) | Disable simple auth                                                                                 |
+| `OIDC_USERNAME_CLAIM` (optional) | Change the field that Drop pulls the username claim from. Users are merged based on their usernames |
 
 And then, you must configure **either**:
 
