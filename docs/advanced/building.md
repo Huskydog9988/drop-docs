@@ -50,12 +50,10 @@ yarn link
 
 `drop` is the self hosted server. It's a Nuxt 3 project, but depends on the `droplet` package so isn't easily transportable.
 
-Get started by cloning the `drop` source code, and then enter the directory and clone its submodules:
+Get started by cloning the `drop` source code, and then enter the directory:
 
 ```shell
 git clone https://github.com/Drop-OSS/drop.git
-cd drop
-git submodule update --init --recursive
 ```
 
 Then, link your build `droplet` package:
@@ -89,7 +87,6 @@ To build drop-app, run:
 ```shell
 git clone https://github.com/Drop-OSS/drop-app.git
 cd drop-app
-git submodule update --init --recursive
 git checkout main
 yarn
 yarn tauri build

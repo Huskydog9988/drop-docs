@@ -25,7 +25,7 @@ services:
       - POSTGRES_USER=drop
       - POSTGRES_DB=drop
   drop:
-    image: ghcr.io/drop-oss/drop:nightly
+    image: ghcr.io/drop-oss/drop:latest
     depends_on:
       postgres:
         condition: service_healthy
@@ -36,6 +36,7 @@ services:
       - ./data:/data
     environment:
       - DATABASE_URL=postgres://drop:drop@postgres:5432/drop
+      - EXTERNAL_URL=http://localhost:3000 # default, customise if accessing from another computer or behind a reverse proxy
 ```
 
 **The main things in this `compose.yaml` is the volumes attached to the `drop` service:**
@@ -61,7 +62,7 @@ Once your instance is running, it will log a URL that takes you to the setup wiz
 
 ## Setting up a client
 
-To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](./exposing.md) for information on how to do that.
+To set up a client, your Drop instance will have to be accessible from it. See [Exposing your instance](/docs/guides/exposing.md) for information on how to do that.
 
 First, download the latest client for your platform from [the GitHub releases page](https://github.com/Drop-OSS/drop-app/releases). Then, install it for your platform. If we don't have a binary available for your platform, please create an issue on [the Drop app repository](https://github.com/Drop-OSS/drop-app) and we'll investigate it.
 
