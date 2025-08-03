@@ -18,6 +18,7 @@ create-pages:
     - yarn install
     - yarn build
     - mv ./build public
-  pages: true
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  pages:
+    path_prefix: "pr-$CI_MERGE_REQUEST_IID" # Results in paths like mr-123
+  only:
+    - external_pull_requests
