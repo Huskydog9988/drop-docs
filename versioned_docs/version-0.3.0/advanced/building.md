@@ -8,9 +8,9 @@ Unfortunately, we don't have the time or resources to build and debug our softwa
 
 To compile:
 
-- Rust (stable)
+- Rust (nightly)
 - Node.js v20
-- `yarn` (v1/legacy) package manager
+- `yarn` (v4) package manager
 - `git` VCS
 - Docker
 
@@ -59,7 +59,7 @@ git clone https://github.com/Drop-OSS/drop.git
 Then, link your build `droplet` package:
 
 ```shell
-yarn link "@drop/droplet"
+yarn link "@drop-oss/droplet"
 ```
 
 Then, install dependencies:
