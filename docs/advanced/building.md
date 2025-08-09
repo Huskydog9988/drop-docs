@@ -8,9 +8,9 @@ Unfortunately, we don't have the time or resources to build and debug our softwa
 
 To compile:
 
-- Rust (stable)
+- Rust (nightly)
 - Node.js v20
-- `yarn` (v1/legacy) package manager
+- `yarn` (v4) package manager
 - `git` VCS
 - Docker
 
@@ -59,7 +59,7 @@ git clone https://github.com/Drop-OSS/drop.git
 Then, link your build `droplet` package:
 
 ```shell
-yarn link "@drop/droplet"
+yarn link "@drop-oss/droplet"
 ```
 
 Then, install dependencies:
@@ -111,4 +111,6 @@ NO_STRIP=true yarn tauri build
 ```
 
 This is a known issue in [Tauri](https://github.com/tauri-apps/tauri/issues/5781#issuecomment-1758815710).
+
+**Note:** For Windows-specific build instructions, see the [Building drop-app on Windows](building-windows.md) page.
 \*\*

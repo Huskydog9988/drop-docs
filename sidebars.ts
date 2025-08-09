@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Admin Guides",
       items: [
+        "guides/getting-started",
         "guides/quickstart",
         "guides/exposing",
         "guides/server-troubleshooting",
@@ -42,7 +43,11 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Advanced",
-      items: ["advanced/building"],
+      items: [
+        "advanced/building",
+        "advanced/building-windows",
+        "advanced/certificates",
+      ],
     },
     {
       type: "category",

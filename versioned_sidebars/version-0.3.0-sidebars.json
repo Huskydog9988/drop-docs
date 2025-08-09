@@ -40,7 +40,8 @@
       "label": "Advanced",
       "items": [
         "advanced/building",
-        "advanced/building-windows"
+        "advanced/building-windows",
+        "advanced/certificates"
       ]
     },
     {
